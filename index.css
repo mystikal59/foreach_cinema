@@ -1,5 +1,84 @@
+/* media header ==================================================================================== */
+
 @media (max-width: 480px) {
     .mobile-hidden {
         display: none !important;
     }
+}
+
+/* main bg tarif et films */
+/* ====================================================================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    text-align: center;
+}
+
+.background-image {
+    background-image: url('./starter_exo_fin_module_3/assets/images/ad.png');
+    background-size: cover;
+    color: white;
+    padding: 50px;
+    margin: 10px 100px;
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 94px;
+}
+
+.cell1 {
+    width: 49%;
+    background-color: #186cb0; 
+    padding: 10px;
+    text-align: center;
+}
+
+.cell1 a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    height: 100%;
+}
+
+/* main tarifs abonnement */
+/* ========================================================================================== */
+
+.gray-cell1 {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto 20px;
+    background-color: #ddd;
+    padding: 2px;
+}
+
+
+.gray-cell2 {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto 20px;
+    background-color: #ddd;
+    padding: 2px;
+}
+
+
+.cell2 {
+    padding: 20px;
+    margin: 0px 0 0 80px;
+}
+
+.cell2 span {
+    color: #186cb0;
+    font-weight: bold; 
+}
+
+span{
+    font-weight: bold;
 }
