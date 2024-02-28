@@ -149,3 +149,30 @@ span{
     display: flex;
     align-items: center;
 }
+
+/* banniere pub ====================================================================================================== */
+
+.ad-banner {
+    background-color: yellow;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.ad-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.close-btn {
+    cursor: pointer;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.ad-content p {
+    margin: 10px ;
+    
+}
